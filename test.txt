@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-non sa marche pas 
-=======
-sa marche
-
-t sur
->>>>>>> a4c14ebc28a21feaf440be21c0faa5b22190df06

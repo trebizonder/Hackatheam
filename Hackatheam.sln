@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackatheam", "Hackatheam\Hackatheam.csproj", "{F40533B2-C81B-4AA6-9313-1C34D19B1F20}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "naveDb", "naveDb\naveDb.sqlproj", "{A3BA3149-DB43-413B-890B-A636891B0D5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,17 @@ Global
 		{F40533B2-C81B-4AA6-9313-1C34D19B1F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F40533B2-C81B-4AA6-9313-1C34D19B1F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F40533B2-C81B-4AA6-9313-1C34D19B1F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BA3149-DB43-413B-890B-A636891B0D5C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {468F82D0-DE98-423A-B528-E7C2B5CA74BD}
 	EndGlobalSection
 EndGlobal

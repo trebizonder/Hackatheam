@@ -57,5 +57,20 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Tables" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Car.sql" />
+    <Build Include="Tables\City.sql" />
+    <Build Include="Tables\Adress.sql" />
+    <Build Include="Tables\User.sql" />
+    <Build Include="Tables\Evaluation.sql" />
+    <Build Include="Tables\Path.sql" />
+    <Build Include="Tables\Disponibility.sql" />
+    <Build Include="Tables\Hours.sql" />
+    <Build Include="Tables\Path_List.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="naveDb.refactorlog" />
   </ItemGroup>
 </Project>
